@@ -1,0 +1,21 @@
+.nav{
+    color: #181E4B;
+
+}
+.title h2{
+    color: #181E4B;
+}
+.header{
+    /* background-image: url('../../Assets/Hero/Decore.png');
+    background-repeat: no-repeat; */
+    /* background-attachment: fixed; */
+    background-position: right;
+    padding-bottom: 3%;
+    padding-left: 5%;
+/* margin-left: 40px; */
+    /* padding-right: 10%; */
+
+}
+.best{
+    color: #DF6951;
+}
