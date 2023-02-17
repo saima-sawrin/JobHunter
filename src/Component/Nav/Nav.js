@@ -4,7 +4,11 @@ import './Nav.css';
 import logo from '../../Assets/icon/Logo.png';
      const Nav = () => {
                     const [isMenuOpen, setIsMenuOpen] = useState(false);
+                 
+             
                   
+        
+
                     return (
                     <div className='header'>
                         {/* Navbar Started */}
@@ -33,26 +37,26 @@ import logo from '../../Assets/icon/Logo.png';
                               </Link>
                             </li>
                             <li>
-                              <a
-                                href="/"
+                              <Link
+                                to='/about'
                                 aria-label="Our product"
                                 title="Our product"
                                 className="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
                               >
                                About
-                              </a>
+                              </Link>
                             </li>
                             <li>
-                              <a
-                                href="/"
+                              <Link
+                                to='/contact'
                                 aria-label="Product pricing"
                                 title="Product pricing"
                                 className="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
                               >
                                 Contact Us
-                              </a>
+                              </Link>
                             </li>
-                          
+                           
                             <li>
                               <Link
                                 to='/signup'
@@ -73,6 +77,14 @@ import logo from '../../Assets/icon/Logo.png';
                                Post Job
                               </a>
                             </li>
+                            <li>
+  
+                            <label for="Toggle3" className="inline-flex items-center p-2 rounded-md cursor-pointer dark:text-gray-800">
+                            	<input id="Toggle3" type="checkbox" className="hidden peer" />
+                            	<span className="px-4 py-2 rounded-l-md bg-yellow-400 peer-checked:bg-gray-300">Job Seeker</span>
+                            	<span className="px-4 py-2 rounded-r-md bg-gray-300 peer-checked:bg-yellow-400">Job Poster</span>
+                            </label>
+                           </li>
                           </ul>
                           <div className="lg:hidden">
                             <button
@@ -155,24 +167,24 @@ import logo from '../../Assets/icon/Logo.png';
                                         </a>
                                       </li>
                                       <li>
-                                        <a
-                                          href="/"
+                                        <Link
+                                          to='/about'
                                           aria-label="Our product"
                                           title="Our product"
                                           className="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
                                         >
                                           About
-                                        </a>
+                                        </Link>
                                       </li>
                                       <li>
-                                        <a
-                                          href="/"
+                                        <Link
+                                          to='/contact'
                                           aria-label="Product pricing"
                                           title="Product pricing"
                                           className="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
                                         >
                                           Contact Us
-                                        </a>
+                                        </Link>
                                       </li>
                                       
                                       
@@ -196,6 +208,14 @@ import logo from '../../Assets/icon/Logo.png';
                                Post Job
                               </a>
                             </li>
+                            <li>
+  
+                            <label for="Toggle3" className="inline-flex items-center p-2 rounded-md cursor-pointer dark:text-gray-800">
+                            	<input id="Toggle3" type="checkbox" className="hidden peer" />
+                            	<span className="px-4 py-2 rounded-l-md bg-yellow-400 peer-checked:bg-gray-300">Job Seeker</span>
+                            	<span className="px-4 py-2 rounded-r-md bg-gray-300 peer-checked:bg-yellow-400">Job Poster</span>
+                            </label>
+                           </li>
                                     </ul>
                                   </nav>
                                 </div>
