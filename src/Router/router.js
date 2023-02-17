@@ -1,7 +1,9 @@
 import React from 'react';
 import { createBrowserRouter } from "react-router-dom";
 import AllFreshers from '../Component/Freshers/AllFreshers';
+import AllJobs from '../Component/Freshers/AllJobs';
 import Freshers from '../Component/Freshers/Freshers';
+import Header from '../Component/Header/Header';
 import About from '../Page/About/About';
 import Contact from '../Page/Contact/Contact';
 import Home from "../Page/Home/Home";
@@ -14,12 +16,20 @@ const router = createBrowserRouter([
         element: <Home></Home>,
         children:([
             {
+              path:'/',
+              element:<Header></Header>
+            },
+            {
                 path:'/',
-                // loader:()=> fetch('freshers.json'),
                 element: <AllFreshers></AllFreshers>
             }
         ])
 
+    },
+    {
+      path:'/FreshersAllJobs',
+      loader:()=> fetch('freshers,json'),
+      element:<AllJobs></AllJobs>
     },
     {
         path:'/about',

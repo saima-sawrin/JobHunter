@@ -4,7 +4,8 @@
        "Job_Location" :"Dhaka,Bangladesh",
        "Company" : "WellDev",
        "Job_Nature": "Part Time",
-       "Salary": "10k-12k"
+       "Salary": "10k-12k",
+       "img": "1.svg"
      
     },
     {"id":"02",
@@ -12,35 +13,41 @@
        "Job_Location" :"Dhaka,Bangladesh",
        "Company" : "BacBon Limited",
        "Job_Nature": "Full Time",
-       "Salary": "20k-22k"
+       "Salary": "20k-22k",
+       "img":"3.svg"
     },
     {"id":"03",
        "position":"Full Stack Developer",
        "Job_Location" :"Dhaka,Bangladesh",
        "Company" : "Brain Station",
        "Job_Nature": "Full Time",
-       "Salary": "20k-25k"
+       "Salary": "20k-25k",
+       "img":"4.svg"
     },
     {"id":"04",
        "position":"Web Designer",
        "Job_Location" :"Dhaka,Bangladesh",
        "Company" : "Dream71 Bangladesh Limited",
-       "Job Nature": "Full-time",
-       "Salary": "10k-12k"
+       "Job_Nature": "Full-time",
+       "Salary": "10k-12k",
+       "img":"5.svg"
     },
     {"id":"06",
        "position":"FrontEnd Development",
        "Job_Location" :"Dhaka,Bangladesh",
        "Company" : "BacBon Limited",
        "Job_Nature": "Full Time",
-       "Salary": "20k-22k"
+       "Salary": "20k-22k",
+       "img":"3.svg"
     },
     {"id":"07",
        "position":"Full Stack Developer",
        "Job_Location" :"Dhaka,Bangladesh",
        "Company" : "WellDev",
        "Job_Nature": "Full Time",
-       "Salary": "20k-25k"
+       "Salary": "20k-25k",
+       "img":"1.svg"
+
     }
 
 
