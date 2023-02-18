@@ -1,5 +1,5 @@
 import React from 'react';
-import logo from '../../Assets/icon/Logo.png';
+import logo from '../../Assets/icon/Logo2.png';
 const Footer = () => {
     return (
         <footer className="px-4 divide-y dark:bg-gray-800 dark:text-gray-100">

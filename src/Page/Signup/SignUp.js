@@ -8,7 +8,10 @@ const SignUp = () => {
     const {createUser } = useContext(AuthContext);
     const[error , setError] = useState('');
    
-    
+    const navigate = useNavigate();
+    const location = useLocation();
+    const from = location.state?.from?.pathname || '/';
+
      const handleSubmit = event => {
          event.preventDefault();
          const form = event.target;
@@ -20,6 +23,9 @@ const SignUp = () => {
          createUser(email, password)
          .then( result => {
              const user = result.user;
+             form.reset();
+             setError('');
+             navigate(from, {replace: true});
              alert('Successfully Registered ');
              console.log(user);
              form.reset();

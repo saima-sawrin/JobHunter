@@ -21,9 +21,6 @@ const AllFreshers = () => {
         jobs.map(job => <Freshers key={job.id} job={job}></Freshers>)
          }
      </div>
-   
-     </div>
-     
      <div className="text-center">
         <Link
          to="/FreshersAllJobs"
@@ -32,6 +29,8 @@ const AllFreshers = () => {
           See More
         </Link>
       </div>
+     </div>
+     
         </div>
         
   </div>

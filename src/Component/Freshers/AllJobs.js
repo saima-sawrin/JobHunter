@@ -11,7 +11,7 @@ const AllJobs = () => {
     },[])
 
     return (
-        <div className='mx-20'>
+        <div className='mx-40'>
             <h3 className='text-4xl font-bold text-center my-10 '> Available All Jobs for Freshers</h3>
             {
                 allJobs.map(alljobDesc => <AllJobDesc key={alljobDesc.id} alljobDesc={alljobDesc}></AllJobDesc>)

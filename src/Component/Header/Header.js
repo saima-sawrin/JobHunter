@@ -24,27 +24,18 @@ const Header = () => {
                     accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
                     quae. explicabo.
                   </p>
-                  
+                 
                 </div>
-                <form className="flex flex-col items-center w-full mb-4 md:flex-row md:px-16">
+                <div>
+                  <form className="flex flex-col items-center w-full mb-4 md:flex-row md:px-16">
             <input
-              placeholder="title"
+              placeholder="Select your job"
               required
               type="text"
               className="flex-grow w-full h-12 px-4 mb-3 text-black transition duration-200 bg-transparent border-2 border-gray-400 rounded appearance-none md:mr-2 md:mb-0 focus:border-deep-purple-accent-200 focus:outline-none focus:shadow-outline"
             />
-            <input
-              placeholder="Category"
-              required
-              type="text"
-              className="flex-grow w-full h-12 px-4 mb-3 text-black transition duration-200 bg-transparent border-2 border-gray-400 rounded appearance-none md:mr-2 md:mb-0 focus:border-deep-purple-accent-200 focus:outline-none focus:shadow-outline"
-            />
-            <input
-              placeholder="location"
-              required
-              type="text"
-              className="flex-grow w-full h-12 px-4 mb-3 text-black transition duration-200 bg-transparent border-2 border-gray-400 rounded appearance-none md:mr-2 md:mb-0 focus:border-deep-purple-accent-200 focus:outline-none focus:shadow-outline"
-            />
+         
+        
             <button
               type="submit"
               className="inline-flex items-center justify-center w-full h-12 px-6 font-medium tracking-wide text-black transition duration-200 rounded shadow-md md:w-auto bg-deep-purple-accent-400 hover:bg-deep-purple-accent-700 focus:shadow-outline focus:outline-none"
@@ -52,6 +43,7 @@ const Header = () => {
               Search
             </button>
           </form>
+                  </div>
                
               </div>
               <div className="relative">
