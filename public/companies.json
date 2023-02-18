@@ -2,16 +2,19 @@
     {
         "id":"001",
         "name": "Dream71 Bangladesh Ltd",
-        "img": "dream71.png"
+        "img": "dream71.png",
+        "detail": "https://dream71.com/"
     },
     {
-        "id":"001",
-        "name": "Dream71 Bangladesh Ltd",
-        "img": "dream71.png"
+        "id":"002",
+        "name": "TigerIT",
+        "img": "ti-logo.png",
+        "detail": "https://www.tigerit.com/"
     },
     {
-        "id":"001",
-        "name": "Dream71 Bangladesh Ltd",
-        "img": "dream71.png"
+        "id":"005",
+        "name": "Data Soft",
+        "img": "m-logo.png",
+        "detail": "http://datasoft-bd.com/"
     }
 ]

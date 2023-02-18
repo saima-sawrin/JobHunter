@@ -70,7 +70,7 @@ import logo from '../../Assets/icon/Logo2.png';
                             <li>
                               <a
                                 href="/"
-                                className="inline-flex items-center justify-center h-12 px-6 font-medium tracking-wide  transition duration-200 rounded shadow-md bg-deep-purple-accent-400 hover:bg-deep-purple-accent-700 focus:shadow-outline focus:outline-none bg-gray-800 text-white"
+                                className="inline-flex items-center justify-center h-12 px-6 font-medium tracking-wide  transition duration-200 rounded shadow-md bg-deep-purple-accent-400 hover:bg-deep-purple-accent-700 focus:shadow-outline focus:outline-none bg-blue-400 text-white"
                                 aria-label="Sign up"
                                 title="Sign up"
                               >
@@ -201,7 +201,7 @@ import logo from '../../Assets/icon/Logo2.png';
                                       <li>
                               <a
                                 href="/"
-                                className="inline-flex items-center justify-center h-12 px-6 font-medium tracking-wide  transition duration-200 rounded shadow-md bg-deep-purple-accent-400 hover:bg-deep-purple-accent-700 bg-gray-800 text-white focus:shadow-outline focus:outline-none "
+                                className="inline-flex items-center justify-center h-12 px-6 font-medium tracking-wide  transition duration-200 rounded shadow-md bg-deep-purple-accent-400 hover:bg-deep-purple-accent-700 bg-blue-400 text-white focus:shadow-outline focus:outline-none "
                                 aria-label="Sign up"
                                 title="Post Job"
                               >

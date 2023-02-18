@@ -7,6 +7,7 @@ import Header from '../Component/Header/Header';
 import About from '../Page/About/About';
 import Contact from '../Page/Contact/Contact';
 import Home from "../Page/Home/Home";
+import Login from '../Page/login/Login';
 import SignUp from '../Page/Signup/SignUp';
 
 
@@ -45,6 +46,10 @@ const router = createBrowserRouter([
     {
         path:'/signup',
         element: <SignUp></SignUp>
+    },
+    {
+        path:'/login',
+        element: <Login></Login>
     }
   
 ])
