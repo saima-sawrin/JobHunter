@@ -76,7 +76,7 @@ const Login = () => {
                         <div className="form-control mt-6">
                             <input className="btn btn-primary" type="submit" value="Login" />
                         </div>
-                        <p className='text-center'>New to Beauty Salon? <Link className='font-bold' to="/signup">Sign Up</Link> </p>
+                        <p className='text-center'>New to Job Hunter Place? <Link className='font-bold' to="/signup">Sign Up</Link> </p>
                      
                      <p className='text-red-500'>{error}</p>
                     </form>
