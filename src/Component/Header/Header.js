@@ -15,7 +15,7 @@ const Header = () => {
              
                 <div className="max-w-xl mb-6">
                  
-                  <h2 className="max-w-lg mb-6 font-sans text-4xl font-bold tracking-tight text-gray-900 sm:text-4xl sm:leading-none">
+                  <h2 className="max-w-lg mb-6 uppercase font-sans text-4xl font-bold tracking-tight text-gray-900 sm:text-4xl sm:leading-none">
                   Largets Job Site 
                     <br className="hidden md:block" />
                     In The World{' '}
@@ -31,7 +31,7 @@ const Header = () => {
                  
                 </div>
                 <div>
-                  <form className="flex flex-col items-center w-full mb-4 md:flex-row md:px-16">
+                  <form className="flex flex-col items-center w-full mb-4 md:flex-row ">
             <input
               placeholder="Select your job"
               required

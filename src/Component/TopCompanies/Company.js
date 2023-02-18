@@ -37,7 +37,7 @@ const Company = ({company}) => {
             </div>
             <h6 className="mb-2 font-semibold leading-5">{name}</h6>
             <p className="text-sm text-gray-900">
-            The software has evolved into a critical component of technology. In today’s digital age, software has become an enormously important aspect of both business and daily life. 
+            The software has evolved into a critical component of technology. In today’s digital age, software has become an enormously important aspect of both business and .....
             </p>
             <div className="flex justify-start w-56 lg:justify-end mt-5">
                    

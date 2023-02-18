@@ -10,12 +10,12 @@ import TopCompanies from '../../Component/TopCompanies/TopCompanies';
 const Home = () => {
     return (
         <div>
-      <Nav></Nav>
+   
       <Header></Header>
       <AllFreshers></AllFreshers>
       <ExJobSection></ExJobSection>
       <TopCompanies></TopCompanies>
-      <Footer></Footer>
+   
         </div>
     );
 };
